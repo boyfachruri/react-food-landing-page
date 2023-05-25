@@ -3,6 +3,7 @@ import Logo from "../Assets/Logo.svg";
 import { BsTwitter } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
+// import BsWhatsapp from 'react-icons/bs';
 import { FaFacebookF } from "react-icons/fa";
 import asyrafBakery from "../Assets/asyraf-logo/asyrafBakery.png";
 
@@ -15,12 +16,12 @@ const Footer = () => {
       
       <div className="footer-section-two">
         <div className="footer-section-columns">
-          <span>Sosial Media Kami</span>
+          {/* <span>Sosial Media Kami</span> */}
           <span>
-            <BsTwitter /> &nbsp;&nbsp;
+            {/* <BsTwitter /> &nbsp;&nbsp;
             <SiLinkedin /> &nbsp;&nbsp;&nbsp;
             <BsYoutube /> &nbsp;
-            <FaFacebookF />
+            <BsWhatsapp /> */}
           </span>
         </div>
         <div className="footer-section-columns">

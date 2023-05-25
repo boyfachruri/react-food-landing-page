@@ -38,13 +38,13 @@ const Navbar = () => {
         {
             text: "Products",
             icon: <CommentRoundedIcon />,
-            path: "/testimonials"
+            path: "/product"
         },
-        {
-            text: "Contact",
-            icon: <PhoneRoundedIcon />,
-            path: "/contact"
-        },
+        // {
+        //     text: "Contact",
+        //     icon: <PhoneRoundedIcon />,
+        //     path: "/contact"
+        // },
         {
             text: "Pesan Sekarang",
             icon: <ShoppingCartRoundedIcon />,
@@ -59,8 +59,8 @@ const Navbar = () => {
     <div className="navbar-links-container">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/testimonials">products</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/product">products</Link>
+        {/* <Link to="/contact">Contact</Link> */}
         {/* <Link to=""><BsCart2 className="navbar-cart-icons"/></Link> */}
         <Link to="https://wa.wizard.id/91719c" target="_blank"><button className="primary-button">
             Pesan Sekarang

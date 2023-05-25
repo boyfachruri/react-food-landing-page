@@ -15,8 +15,8 @@ const Testimonial = () => {
   const product = [
     {
       nama: product1,
-      title:"",
-      deskripsi: "",
+      title:"Roti Almond",
+      deskripsi: "Roti dengan dibaluti almond yang gurih",
     },
     {
       nama: product2,
@@ -25,18 +25,28 @@ const Testimonial = () => {
     },
     {
       nama: product3,
+      title:"Roti Choco Banana",
+      deskripsi: "Roti dengan balutan meses coklat dengan buah pisang didalamnya",
     },
     {
       nama: product4,
+      title:"Roti Pizza",
+      deskripsi: "Roti isi daging perpaduan cita rasa indonesia dan italia",
     },
     {
       nama: product5,
+      title:"Roti Mexican",
+      deskripsi: "Roti dengan aroma dan rasa kopi yang nikamt",
     },
     {
       nama: product6,
+      title:"Roti Choco Lava",
+      deskripsi: "Roti dengan adonan coklat dan berisi coklat yang meleleh dimulut",
     },
     {
       nama: product7,
+      title:"Roti Sosis",
+      deskripsi: "Roti dengan baluran saus dan sosis yang menempel ditengahnya",
     },
   ];
 
@@ -58,31 +68,6 @@ const Testimonial = () => {
           </div>
         ))}
       </section>
-
-      {/* <div className="work-section-wrapper">
-        <div className="work-section-top">
-          <h1 className="primary-heading">What They Are Saying</h1>
-          <p className="primary-text">
-            Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-            elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
-          </p>
-        </div>
-        <div className="testimonial-section-bottom">
-          <img src={ProfilePic} alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-            elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
-          </p>
-          <div className="testimonials-stars-container">
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-          </div>
-          <h2>John Doe</h2>
-        </div>
-      </div> */}
       <Footer />
     </div>
   );
