@@ -26,8 +26,10 @@ const About = () => {
           <p className="primary-text">
             Berbekal dari pengalaman di tempat kerjanya, Ramdhani juga mengadakan kursus bagi UMKM.
           </p>
+          
           <div className="about-buttons-container">
-            <a href="https://www.youtube.com/@marisamarisa3197" target="_blank" className="secondary-button"><BsFillPlayCircleFill />&nbsp;
+          <a className="secondary-button" href="https://wa.wizard.id/4df7eb" target="_blank">Gabung Kursus</a>
+            <a href="https://www.youtube.com/@marisamarisa3197" target="_blank" className="watch-video-button"><BsFillPlayCircleFill />
               Watch Video</a>
             {/* <button className="watch-video-button">
               
