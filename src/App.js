@@ -1,11 +1,11 @@
 import './App.css';
 import About from './Components/About';
-import Contact from './Components/Contact';
-import Footer from './Components/Footer';
+// import Contact from './Components/Contact';
+// import Footer from './Components/Footer';
 import Home from './Components/Home';
-import Navbar from './Components/Navbar';
+import Layout from './Components/Layout';
 import Testimonial from './Components/Testimonial';
-import Work from './Components/Work';
+// import Work from './Components/Work';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <div className="App">      
       <BrowserRouter>
       <Routes>
-        <Route path="/">
+        <Route path="/" element={<Layout />}> 
           <Route index element={<Home />} />
           <Route path="about" element={<About /> } />
           {/* <Route path="contact" element={<Contact />} /> */}
