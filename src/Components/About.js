@@ -1,5 +1,6 @@
 import React from "react";
 import AboutBackground from "../Assets/about-background.png";
+import rotiAbout from "../Assets/asyraf-logo/rotiAbout.png";
 import AboutBackgroundImage from "../Assets/about-background-image.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 import Navbar from "./Navbar";
@@ -14,27 +15,25 @@ const About = () => {
           <img src={AboutBackground} />
         </div>
         <div className="about-section-image-container">
-          <img src={AboutBackgroundImage} />
+          <img src={rotiAbout} />
         </div>
         <div className="about-section-text-container">
           {/* <p className="primary-subheading">About</p> */}
           <h1 className="primary-heading">
-            Food Is An Important Part Of Balanced Diet
+            Hidup Untuk Membuat Roti
           </h1>
           <p className="primary-text">
-            Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-            elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+            Asyraf Bakery adalah toko roti yang dibuat oleh Ramdhani. Dia mengambil resiko untuk keluar dari tempat kerjanya, yang bergerak dibidang F&B.
           </p>
           <p className="primary-text">
-            Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-            facilisis at fringilla quam.
+            Berbekal dari pengalaman di tempat kerjanya, Ramdhani juga mengadakan kursus bagi UMKM.
           </p>
           <div className="about-buttons-container">
-            <button className="secondary-button">Learn More</button>
-            <button className="watch-video-button">
-              <BsFillPlayCircleFill />
-              Watch Video
-            </button>
+            <a href="https://www.youtube.com/@marisamarisa3197" target="_blank" className="secondary-button"><BsFillPlayCircleFill />&nbsp;
+              Watch Video</a>
+            {/* <button className="watch-video-button">
+              
+            </button> */}
           </div>
         </div>
       </div>

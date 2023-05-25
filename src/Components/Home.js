@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
+import rotiHome2 from "../Assets/asyraf-logo/rotiHome2.png";
 import { FiArrowRight } from "react-icons/fi";
 import Footer from "./Footer";
 
@@ -20,12 +21,14 @@ const Home = () => {
               Roti Ini Dibuat Dengan Tangan Sendiri, Dengan Bahan Yang Sangat
               Berkualitas Dan Menyehatkan
             </p>
-            <button className="secondary-button">
-              Pesan Sekarang <FiArrowRight />
-            </button>
+            
+              <a className="secondary-button" href="https://wa.wizard.id/91719c" target="_blank">Pesan Sekarang <FiArrowRight />
+              </a>
+              
+            
           </div>
           <div className="home-image-container">
-            <img src={BannerImage} />
+            <img src={rotiHome2} />
           </div>
         </div>
       </div>

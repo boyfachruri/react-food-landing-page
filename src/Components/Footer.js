@@ -4,35 +4,24 @@ import { BsTwitter } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
+import asyrafBakery from "../Assets/asyraf-logo/asyrafBakery.png";
 
 const Footer = () => {
   return (
     <div className="footer-wrapper">
-      <div className="footer-section-one">
-        <div className="footer-logo-container">
-          <img src={Logo} alt="" />
-        </div>
-        <div className="footer-icons">
-          <BsTwitter />
-          <SiLinkedin />
-          <BsYoutube />
-          <FaFacebookF />
-        </div>
-      </div>
+      <div className="footer-section-columns"><div className="footer-section-one">
+        <span>Copyright &copy; 2023 | Powered by Boy Fachruri</span>
+      </div></div>
+      
       <div className="footer-section-two">
         <div className="footer-section-columns">
-          <span>Qualtiy</span>
-          <span>Help</span>
-          <span>Share</span>
-          <span>Carrers</span>
-          <span>Testimonials</span>
-          <span>Work</span>
-        </div>
-        <div className="footer-section-columns">
-          <span>244-5333-7783</span>
-          <span>hello@food.com</span>
-          <span>press@food.com</span>
-          <span>contact@food.com</span>
+          <span>Sosial Media Kami</span>
+          <span>
+            <BsTwitter /> &nbsp;&nbsp;
+            <SiLinkedin /> &nbsp;&nbsp;&nbsp;
+            <BsYoutube /> &nbsp;
+            <FaFacebookF />
+          </span>
         </div>
         <div className="footer-section-columns">
           <span>Terms & Conditions</span>

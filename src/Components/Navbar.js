@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../Assets/Logo.svg";
+import asyrafBakery from "../Assets/asyraf-logo/asyrafBakery.png";
 import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import {
@@ -26,37 +27,43 @@ const Navbar = () => {
     const menuOptions = [
         {
             text: "Home",
-            icon: <HomeIcon />
+            icon: <HomeIcon />,
+            path: "/"
         },
         {
             text: "About",
-            icon: <InfoIcon/>
+            icon: <InfoIcon/>,
+            path: "/about"
         },
         {
-            text: "Testimonials",
-            icon: <CommentRoundedIcon />
+            text: "Products",
+            icon: <CommentRoundedIcon />,
+            path: "/testimonials"
         },
         {
             text: "Contact",
-            icon: <PhoneRoundedIcon />
+            icon: <PhoneRoundedIcon />,
+            path: "/contact"
         },
         {
-            text: "Cart",
-            icon: <ShoppingCartRoundedIcon />
+            text: "Pesan Sekarang",
+            icon: <ShoppingCartRoundedIcon />,
+            path: "https://wa.wizard.id/91719c",
+            target: "_blank"
         },
     ]
 
   return (
-  <nav>
-    <div className="nav-logo-container"><img src={Logo} alt=""/></div>
+  <nav className="navbar-position">
+    <div className="nav-logo-container"><img src={asyrafBakery} alt=""/></div>
     <div className="navbar-links-container">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/testimonials">Testimonial</Link>
+        <Link to="/testimonials">products</Link>
         <Link to="/contact">Contact</Link>
-        <Link to=""><BsCart2 className="navbar-cart-icons"/></Link>
-        <Link to="/work"><button className="primary-button">
-            Bookings Now
+        {/* <Link to=""><BsCart2 className="navbar-cart-icons"/></Link> */}
+        <Link to="https://wa.wizard.id/91719c" target="_blank"><button className="primary-button">
+            Pesan Sekarang
         </button> </Link>
         
     </div>
@@ -72,10 +79,11 @@ const Navbar = () => {
             <List>
                 {menuOptions.map((item) => (
                     <ListItem key={item.text} disablePadding>
-                        <ListItemButton>
+                        <Link className="link" to={item.path} target={item.target}><ListItemButton>
                             <ListItemIcon>{item.icon}</ListItemIcon>  
                             <ListItemText>{item.text}</ListItemText>                          
-                        </ListItemButton>
+                        </ListItemButton></Link>
+                        
                     </ListItem>
                 ))}
             </List>
