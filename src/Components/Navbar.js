@@ -3,6 +3,7 @@ import Logo from "../Assets/Logo.svg";
 import asyrafBakery from "../Assets/asyraf-logo/asyrafBakery.png";
 import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
+import FastfoodIcon from '@mui/icons-material/Fastfood';
 import {
   Box,
   Drawer,
@@ -37,7 +38,7 @@ const Navbar = () => {
         },
         {
             text: "Products",
-            icon: <CommentRoundedIcon />,
+            icon: <FastfoodIcon />,
             path: "/product"
         },
         // {
