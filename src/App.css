@@ -220,6 +220,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 .watch-video-button svg {
   font-size: 3rem;
