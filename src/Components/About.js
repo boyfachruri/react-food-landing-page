@@ -31,7 +31,7 @@ const About = () => {
           
           <div className="about-buttons-container">
           <a className="secondary-button" href="https://wa.wizard.id/4df7eb" target="_blank">Gabung Kursus</a>
-            <a href="https://www.youtube.com/@marisamarisa3197" target="_blank" className="watch-video-button"><BsFillPlayCircleFill />
+            <a href="https://www.youtube.com/watch?v=5unC4lDyYTo" target="_blank" className="watch-video-button"><BsFillPlayCircleFill />
               Watch Video</a>
             {/* <button className="watch-video-button">
               
