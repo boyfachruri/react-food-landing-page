@@ -8,7 +8,6 @@ import product5 from "../Assets/asyraf-logo/product5.jpg";
 import product6 from "../Assets/asyraf-logo/product6.jpg";
 import product7 from "../Assets/asyraf-logo/product7.jpg";
 import { AiFillStar } from "react-icons/ai";
-import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const Testimonial = () => {
@@ -52,7 +51,6 @@ const Testimonial = () => {
 
   return (
     <div>
-      <Navbar />
       <section className="product-container">
         {product.map((item) => (
           <div className="product-container-card">

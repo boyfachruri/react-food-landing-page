@@ -3,13 +3,11 @@ import AboutBackground from "../Assets/about-background.png";
 import rotiAbout from "../Assets/asyraf-logo/rotiAbout.png";
 import AboutBackgroundImage from "../Assets/about-background-image.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
-import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const About = () => {
   return (
     <div>
-      <Navbar />
       <div className="about-section-container">
         <div className="about-background-image-container">
           <img src={AboutBackground} />

@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
 import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
 import rotiHome2 from "../Assets/asyraf-logo/rotiHome2.png";
@@ -9,7 +8,6 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <div className="home-container">
         <div className="home-banner-container">
           <div className="home-bannerImage-container">
